@@ -23,10 +23,8 @@ router.get("/summarize", async (req, res) => {
   }
 });
 
-
 app.use("/", router);
 
 http.createServer(app).listen(port, () => {
   console.log(`Server running at http://localhost:${port}/...`);
 });
-

@@ -17,8 +17,8 @@ form.addEventListener("submit", async (event) => {
   const response = await fetch(`/summarize?url=${url}`);
   const summary = await response.text();
 
-  outputDiv.innerHTML = '';
-  outputText.innerHTML = '';
+  outputDiv.innerHTML = "";
+  outputText.innerHTML = "";
   outputDiv.appendChild(outputText);
   copyButton.style.display = "block";
   clearButton.style.display = "block";
@@ -33,8 +33,8 @@ form.addEventListener("submit", async (event) => {
 
 homeButton.addEventListener("click", (event) => {
   event.preventDefault();
-  outputDiv.innerHTML = '';
-  outputText.innerHTML = '';
+  outputDiv.innerHTML = "";
+  outputText.innerHTML = "";
   outputText.innerHTML = "This is home!";
   outputDiv.appendChild(outputText);
   copyButton.style.display = "none";
@@ -42,18 +42,20 @@ homeButton.addEventListener("click", (event) => {
 
 aboutButton.addEventListener("click", (event) => {
   event.preventDefault();
-  outputDiv.innerHTML = '';
-  outputText.innerHTML = '';
-  outputText.innerHTML = "This is <a class='link' href='https://portfolio-blush-three-74.vercel.app/'>me</a>!";
+  outputDiv.innerHTML = "";
+  outputText.innerHTML = "";
+  outputText.innerHTML =
+    "This is <a class='link' href='https://portfolio-blush-three-74.vercel.app/'>me</a>!";
   outputDiv.appendChild(outputText);
   copyButton.style.display = "none";
 });
 
 contactButton.addEventListener("click", (event) => {
   event.preventDefault();
-  outputDiv.innerHTML = '';
-  outputText.innerHTML = '';
-  outputText.innerHTML = "<a class='link' href='https://portfolio-blush-three-74.vercel.app/'>Here</a> is my portfolio, you can find my contact information there!";
+  outputDiv.innerHTML = "";
+  outputText.innerHTML = "";
+  outputText.innerHTML =
+    "<a class='link' href='https://portfolio-blush-three-74.vercel.app/'>Here</a> is my portfolio, you can find my contact information there!";
   outputDiv.appendChild(outputText);
   copyButton.style.display = "none";
 });
@@ -69,4 +71,3 @@ clearButton.addEventListener("click", () => {
   copyButton.style.display = "none";
   clearButton.style.display = "none";
 });
-

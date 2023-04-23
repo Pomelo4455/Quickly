@@ -20,3 +20,4 @@ Saturday 22nd:
 
 Sunday 23rd:
 - Now that the summaries are working, I start working on the UX/UI. I add a 'copy to clipboard' button to the summary. I also add a 'clear' button to clear the input and the summary. I make sure the website looks good on any display size. The website is now ready to be deployed.
+- After some finishing touches, the project is finalized!
