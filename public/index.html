@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Quickly!</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="../img/quicklyLogo.png">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About me</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <h1>Quickly!</h1>
+      <p>Quickly! is a simple, fast, and free tool that summarizes the content of websites using scraping and AI technologies</p>
+      <form id="form">
+        <input type="text" id="url" placeholder="Enter a URL!" />
+        <button type="submit" class="button">SUMMARIZE</button>
+      </form>
+      <div class="outputContainer">
+        <div id="output"></div>
+        <button id="copyButton" class="button">COPY TO CLIPBOARD</button>
+        <button id="clearButton" class="button">CLEAR</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+
+  </body>
+</html>
