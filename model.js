@@ -9,7 +9,7 @@ const openai = new OpenAIApi(configuration);
 
 async function generateSummary(data) {
   const response = await openai.createCompletion({
-    model: "text-curie-001", // This is the model we are using, it can be easily changed for "davinci", "GPT-3.5-turbo", and many more.
+    model: "text-davinci-003", // This is the model we are using, it can be easily changed for "davinci", "GPT-3.5-turbo", and many more.
     prompt:
       "Can you tell me what the website is about? Here is the data: " + data,
     temperature: 0,
