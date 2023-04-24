@@ -26,7 +26,14 @@ To start the server, run the following command:
 node index.js
 ```
 
-You can then open your web browser and go to http://localhost:3000 to use the application.
+You can then open your web browser and go to `http://localhost:${port}` to use the application.
+Remember to create a `.env` file in the root directory of the project and add the following lines:
+
+```bash
+OPENAI_API_KEY=your-openai-api-key
+PORT=your-port
+```
+You can obtain an openai api key by creating an account on https://beta.openai.com/ and going to the "API Keys" section of your account.
 
 ## Usage
 
