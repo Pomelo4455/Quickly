@@ -22,18 +22,16 @@
         Quickly! is a simple, fast, and free tool that summarizes the content of
         websites using scraping and AI technologies
       </p>
-      <p class="instructions">
-        Please provide the full URL (including "http") i.e "https://platform.openai.com/docs/models"
-      </p>
       <form id="form">
-        <input type="text" id="url" placeholder="Enter a URL!" />
+        <input type="text" id="url" placeholder="Please provide the full URL (including &quot;http&quot;)"/>
         <button type="submit" class="button">SUMMARIZE</button>
       </form>
       <div class="outputContainer">
         <div id="output"></div>
+        <span id="loadingMessage"></span>
         <button id="copyButton" class="button">COPY TO CLIPBOARD</button>
         <button id="clearButton" class="button">CLEAR</button>
-      </div>
+      </div>      
     </div>
     <script src="script.js"></script>
   </body>

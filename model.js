@@ -11,7 +11,7 @@ async function generateSummary(data) {
   const response = await openai.createCompletion({
     model: "text-davinci-003", // This is the model we are using, it can be easily changed for "davinci", "GPT-3.5-turbo", and many more.
     prompt:
-      "Can you tell me what the website is about using 50 tokens or less? Here is the data: " + data,
+      "Can you give me a short summary of what the website from which this data was exctracted is about? Here is the data: " + data,
     temperature: 0,
     max_tokens: 50,
   });

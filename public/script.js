@@ -14,8 +14,11 @@ form.addEventListener("submit", async (event) => {
   event.preventDefault();
 
   const url = document.querySelector("#url").value;
+  const loadingMessage = document.querySelector("#loadingMessage");
+  loadingMessage.innerText = "Loading...";
   const response = await fetch(`/summarize?url=${url}`);
   const summary = await response.text();
+  loadingMessage.innerText = "";
 
   outputDiv.innerHTML = "";
   outputText.innerHTML = "";
