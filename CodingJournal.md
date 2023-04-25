@@ -1,4 +1,5 @@
 Project Timeline:
+
 Wednesday 19th: 
 - I receive the assignment and do some research to estimate the requirements for each project. I decide to develop the 'AI-Powered Website Summary Tool' due to the well-established NLP (Natural Language Processing) techniques that can be used to build it.
 - I consider the language I should use (JavaScript or Python) to program the tool. While Python generally has better libraries for AI integrations, due to my limited knowledge of Python and the short timeframe (1 week) to deliver the finished product, I discard the idea and go with my main language Javascript.
