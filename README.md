@@ -41,4 +41,4 @@ To use Quickly!, simply enter the URL of the webpage you want to summarize in th
 
 ## Development
 
-If you want to see how the project was developed, I wrote a detailed journal of my work on the project, which you can find in in the CodingJournal.txt file.
+If you want to see how the project was developed, I wrote a detailed journal of my work on the project, which you can find in in the codingJournal.md file.
